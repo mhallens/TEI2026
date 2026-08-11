@@ -41,7 +41,7 @@
 					interviews with writers is a departure from the norm. Previous collections have
 					mixed the genders; this one is unisexual. That the editors have chosen to bring
 					together, within the same covers, fifteen writers as diverse as <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/6NqOtDWZ6B9">Dorothy Parker</persName>
-					and Nadine Gordimer, Marianne Moore and Rebecca West, Isak Dinesen and Lillian
+					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/u5rAGuYgEAC">Nadine Gordimer</persName>, Marianne Moore and Rebecca West, Isak Dinesen and Lillian
 					Hellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,
 					would doubtless be their dead bodies, merely because they share a double-X
 					chromosome, is not due to a sudden mental aberration. Rather it has been the
@@ -326,6 +326,95 @@
         "type": "crm:E21_Person",
         "label": "Parker, Dorothy, 1893-1967.",
         "description": "Parker, Dorothy"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/u5rAGuYgEAC">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/u5rAGuYgEAC",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:34:11.992Z",
+    "creator": {
+        "id": "https://github.com/mhallens",
+        "type": "crm:E21_Person",
+        "name": "Markus Hallensleben"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/Zc0LRqhEhht",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/Zc0LRqhEhht/selector/textPosition/3EXNwBvrxzD",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 390,
+                "end": 405,
+                "refinedBy": {
+                    "id": "/target/Zc0LRqhEhht/selector/textQuote/22n7BtPkKqs",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Nadine Gordimer",
+                    "prefix": " That the editors have chosen to bring\n\t\t\t\t\ttogether, within the same covers, fifteen writers as diverse as Dorothy Parker\n\t\t\t\t\tand",
+                    "suffix": " Marianne Moore and Rebecca West, Isak Dinesen and Lillian\n\t\t\t\t\tHellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,\n\t\t\t\t\twould doubtless be their dead bodies, merely because they share a double-X\n\t\t\t\t\tchromosome, is not due to a sudden mental aberration"
+                }
+            },
+            {
+                "id": "/target/Zc0LRqhEhht/selector/css/hLYVcvnxwHk",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/u5rAGuYgEAC]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/86692340",
+        "type": "crm:E21_Person",
+        "label": "Gordimer, Nadine, 1923-2014.",
+        "description": "Gordimer, Nadine"
     },
     "P2_has_type": [
         "oa:identifying"
