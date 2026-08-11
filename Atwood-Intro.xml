@@ -174,7 +174,7 @@
 				<p> Cynthia Ozick goes much farther; she refuses such dichotomies altogether: </p>
 				<p> INTERVIEWER: you have written about the writer as being genderless and living in
 					the world of "as if" rather than being restrained by her . . . </p>
-				<p> OZICK: Parochial temporary commitments. . . . A writer is someone born with a
+				<p> <persName key="Ozick, Cynthia, 1928-...." ref="http://viaf.org/viaf/110575264" ana="webannotation:http://temp.lincsproject.ca/5YcdCAH5j4Y">OZICK</persName>: Parochial temporary commitments. . . . A writer is someone born with a
 					gift. An athlete can run. A painter can paint. A writer has a facility with
 					words. A good writer can also think. Isn't that enough to define a writer by?
 					(p. 304) </p>
@@ -860,6 +860,95 @@
         "type": "crm:E21_Person",
         "label": "Morris, Jan, 1926-2020.",
         "description": "Morris, Jan, 1926-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/5YcdCAH5j4Y">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/5YcdCAH5j4Y",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:39:09.950Z",
+    "creator": {
+        "id": "https://github.com/mhallens",
+        "type": "crm:E21_Person",
+        "name": "Markus Hallensleben"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/5vpDh2NlFJC",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/5vpDh2NlFJC/selector/textPosition/QcGEzoFiabT",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 10717,
+                "end": 10722,
+                "refinedBy": {
+                    "id": "/target/5vpDh2NlFJC/selector/textQuote/xmSi12Sa6Gw",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "OZICK",
+                    "prefix": " \n\t\t\t\t",
+                    "suffix": " Parochial temporary commitments"
+                }
+            },
+            {
+                "id": "/target/5vpDh2NlFJC/selector/css/eqCXdOXLsl9",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/5YcdCAH5j4Y]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/110575264",
+        "type": "crm:E21_Person",
+        "label": "Ozick, Cynthia, 1928-....",
+        "description": "Ozick, Cynthia"
     },
     "P2_has_type": [
         "oa:identifying"
