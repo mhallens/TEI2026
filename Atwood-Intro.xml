@@ -70,7 +70,7 @@
 					spoken sentences; since, for polemicists as for writers themselves, the
 					alternative to language is silence.) </p>
 				<p> I was recently on a panel—that polygonal form of discourse so beloved of the
-					democratic twentieth century—consisting entirely of women, including Jan Morris,
+					democratic twentieth century—consisting entirely of women, including <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330" ana="webannotation:http://temp.lincsproject.ca/D8x251mxzgd">Jan Morris</persName>,
 					who used to be James Morris, and Nayantara Sahgal of India. From the audience
 					came the question, "How do you feel about being on a panel of women?" We all
 					prevaricated. Some of us protested that we had been on lots of panels that
@@ -682,6 +682,95 @@
         "type": "crm:E21_Person",
         "label": "Dinesen, Isak, 1885-1962",
         "description": "Dinesen, Isak"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/D8x251mxzgd">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/D8x251mxzgd",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:37:55.849Z",
+    "creator": {
+        "id": "https://github.com/mhallens",
+        "type": "crm:E21_Person",
+        "name": "Markus Hallensleben"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/6BqLGYBKdoD",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/6BqLGYBKdoD/selector/textPosition/C6pAQ0RKKf5",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2772,
+                "end": 2782,
+                "refinedBy": {
+                    "id": "/target/6BqLGYBKdoD/selector/textQuote/NSbiUt4Gzxs",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Jan Morris",
+                    "prefix": ") \n\t\t\t\t I was recently on a panel—that polygonal form of discourse so beloved of the\n\t\t\t\t\tdemocratic twentieth century—consisting entirely of women, including",
+                    "suffix": "\n\t\t\t\t\twho used to be James Morris, and Nayantara Sahgal of India"
+                }
+            },
+            {
+                "id": "/target/6BqLGYBKdoD/selector/css/pfzJZivelst",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/D8x251mxzgd]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/100161330",
+        "type": "crm:E21_Person",
+        "label": "Morris, Jan, 1926-2020.",
+        "description": "Morris, Jan, 1926-"
     },
     "P2_has_type": [
         "oa:identifying"
