@@ -87,7 +87,7 @@
 					constrained by loyalties to it alone—an attitude which may puzzle, hurt or
 					enrage those whose political priorities cause them to view writing as a <!--<pb
 						n="4"/>--> tool, a means towards an end, rather than as a Muse who will desert
-					you if you break trust. In the interview which begins this collection. Dorothy
+					you if you break trust. In the interview which begins this collection. <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/ga3duKx9WNk">Dorothy</persName>
 					Parker articles the dilemma: </p>
 				<p> I'm a feminist, and God knows I'm loyal to my sex, and you must remember that
 					from my very early days, when this city was scarcely safe from buffaloes, I was
@@ -949,6 +949,95 @@
         "type": "crm:E21_Person",
         "label": "Morris, Jan, 1926-2020.",
         "description": "Morris, Jan, 1926-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ga3duKx9WNk">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ga3duKx9WNk",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:40:03.810Z",
+    "creator": {
+        "id": "https://github.com/mhallens",
+        "type": "crm:E21_Person",
+        "name": "Markus Hallensleben"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/3Mna96IHNhV",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/3Mna96IHNhV/selector/textPosition/xEgr1iN49gr",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 4103,
+                "end": 4110,
+                "refinedBy": {
+                    "id": "/target/3Mna96IHNhV/selector/textQuote/uo9XcitLEfR",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Dorothy",
+                    "prefix": "",
+                    "suffix": "\t\t\t\t\tParker articles the dilemma: \n\t\t\t\t I'm a feminist, and God knows I'm loyal to my sex, and you must remember that\n\t\t\t\t\tfrom my very early days, when this city was scarcely safe from buffaloes, I was\n\t\t\t\t\tin the struggle for equal rights for women"
+                }
+            },
+            {
+                "id": "/target/3Mna96IHNhV/selector/css/eGkz3xcih0j",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ga3duKx9WNk]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/7395211",
+        "type": "crm:E21_Person",
+        "label": "Parker, Dorothy, 1893-1967.",
+        "description": "Parker, Dorothy"
     },
     "P2_has_type": [
         "oa:identifying"
