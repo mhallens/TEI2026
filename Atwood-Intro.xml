@@ -71,7 +71,7 @@
 					alternative to language is silence.) </p>
 				<p> I was recently on a panel—that polygonal form of discourse so beloved of the
 					democratic twentieth century—consisting entirely of women, including <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330" ana="webannotation:http://temp.lincsproject.ca/D8x251mxzgd">Jan Morris</persName>,
-					who used to be James Morris, and Nayantara Sahgal of India. From the audience
+					who used to be <persName key="Morris, Jan, 1926-2020." ref="http://viaf.org/viaf/100161330" ana="webannotation:http://temp.lincsproject.ca/ctlB8XAma6L">James Morris</persName>, and Nayantara Sahgal of India. From the audience
 					came the question, "How do you feel about being on a panel of women?" We all
 					prevaricated. Some of us protested that we had been on lots of panels that
 					included men; others said that most panels were male, with a woman dotted here
@@ -763,6 +763,95 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/D8x251mxzgd]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/100161330",
+        "type": "crm:E21_Person",
+        "label": "Morris, Jan, 1926-2020.",
+        "description": "Morris, Jan, 1926-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/ctlB8XAma6L">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/ctlB8XAma6L",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:38:04.229Z",
+    "creator": {
+        "id": "https://github.com/mhallens",
+        "type": "crm:E21_Person",
+        "name": "Markus Hallensleben"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ytOynstSm30",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ytOynstSm30/selector/textPosition/gmKbvJiBhhD",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2804,
+                "end": 2816,
+                "refinedBy": {
+                    "id": "/target/ytOynstSm30/selector/textQuote/9UtnAEA1Ndi",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "James Morris",
+                    "prefix": ") \n\t\t\t\t I was recently on a panel—that polygonal form of discourse so beloved of the\n\t\t\t\t\tdemocratic twentieth century—consisting entirely of women, including Jan Morris,\n\t\t\t\t\twho used to be",
+                    "suffix": " and Nayantara Sahgal of India"
+                }
+            },
+            {
+                "id": "/target/ytOynstSm30/selector/css/1QGUaOuBPgy",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/ctlB8XAma6L]"
             }
         ]
     },
