@@ -41,8 +41,8 @@
 					interviews with writers is a departure from the norm. Previous collections have
 					mixed the genders; this one is unisexual. That the editors have chosen to bring
 					together, within the same covers, fifteen writers as diverse as <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/6NqOtDWZ6B9">Dorothy Parker</persName>
-					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/u5rAGuYgEAC">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/m9CKisAahtO">Marianne Moore</persName> and <persName key="West, Rebecca, 1892-1983" ref="http://viaf.org/viaf/108321467" ana="webannotation:http://temp.lincsproject.ca/9vF3gN0c123">Rebecca West</persName>, <persName key="Dinesen, Isak, 1885-1962" ref="http://viaf.org/viaf/121643918" ana="webannotation:http://temp.lincsproject.ca/UqDLqStkPLE">Isak Dinesen</persName> and <persName key="Lillian Hellman" ref="http://dbpedia.org/resource/Lillian_Hellman" ana="webannotation:http://temp.lincsproject.ca/Mobhct7eHg2">Lillian
-					</persName>Hellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,
+					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/u5rAGuYgEAC">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/m9CKisAahtO">Marianne Moore</persName> and <persName key="West, Rebecca, 1892-1983" ref="http://viaf.org/viaf/108321467" ana="webannotation:http://temp.lincsproject.ca/9vF3gN0c123">Rebecca West</persName>, <persName key="Dinesen, Isak, 1885-1962" ref="http://viaf.org/viaf/121643918" ana="webannotation:http://temp.lincsproject.ca/UqDLqStkPLE">Isak Dinesen</persName> and Lillian
+					Hellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,
 					would doubtless be their dead bodies, merely because they share a double-X
 					chromosome, is not due to a sudden mental aberration. Rather it has been the
 					result of readers' requests. Why not a gathering of women writers? the editors
@@ -682,95 +682,6 @@
         "type": "crm:E21_Person",
         "label": "Dinesen, Isak, 1885-1962",
         "description": "Dinesen, Isak"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				
-</rdf:Description>
-				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Mobhct7eHg2">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/Mobhct7eHg2",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2026-08-11T23:35:15.041Z",
-    "creator": {
-        "id": "https://github.com/mhallens",
-        "type": "crm:E21_Person",
-        "name": "Markus Hallensleben"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.3.0"
-    },
-    "target": {
-        "id": "/target/HtEzTNw4Q58",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/mhallens/TEI2026/main/Atwood-Intro.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/HtEzTNw4Q58/selector/textPosition/tlPWyJ5Ts7Y",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 457,
-                "end": 470,
-                "refinedBy": {
-                    "id": "/target/HtEzTNw4Q58/selector/textQuote/iFR9nEb4CjQ",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Lillian\n\t\t\t\t\t",
-                    "prefix": " That the editors have chosen to bring\n\t\t\t\t\ttogether, within the same covers, fifteen writers as diverse as Dorothy Parker\n\t\t\t\t\tand Nadine Gordimer, Marianne Moore and Rebecca West, Isak Dinesen and",
-                    "suffix": "ellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,\n\t\t\t\t\twould doubtless be their dead bodies, merely because they share a double-X\n\t\t\t\t\tchromosome, is not due to a sudden mental aberration"
-                }
-            },
-            {
-                "id": "/target/HtEzTNw4Q58/selector/css/S7qJYBRnGu3",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Mobhct7eHg2]"
-            }
-        ]
-    },
-    "body": {
-        "id": "http://dbpedia.org/resource/Lillian_Hellman",
-        "type": "crm:E21_Person",
-        "label": "Lillian Hellman",
-        "description": "Lillian Florence Hellman (June 20, 1905 – June 30, 1984) was an American dramatist and screenwriter known for her success as a playwright on Broadway, as well as her Communist sympathies and political activism. She was blacklisted after her appearance before the House Committee on Un-American Activities (HUAC) at the height of the anti-communist campaigns of 1947–1952. Although she continued to work on Broadway in the 1950s, her blacklisting by the American film industry caused a drop in her income. Many praised Hellman for refusing to answer questions by HUAC, but others believed, despite her denial, that she had belonged to the Communist Party."
     },
     "P2_has_type": [
         "oa:identifying"
